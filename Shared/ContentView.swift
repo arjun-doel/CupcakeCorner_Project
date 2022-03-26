@@ -15,7 +15,7 @@ struct ContentView: View {
             Form {
                 Section {
                     Picker("Select your cake type", selection: $order.type) {
-                        ForEach(Order.types.indices) {
+                        ForEach(Order.types.indices, id: \.self) {
                             Text(Order.types[$0])
                         }
                     }
@@ -29,6 +29,14 @@ struct ContentView: View {
                     if order.specialRequestEnabled {
                         Toggle("Add extra frosting", isOn: $order.extraFrosting)
                         Toggle("Add sprinkles", isOn: $order.addSprinkles)
+                    }
+                }
+                
+                Section {
+                    NavigationLink {
+                        AddressView(order: order)
+                    } label: {
+                        Text("Delivery detals")
                     }
                 }
             }
