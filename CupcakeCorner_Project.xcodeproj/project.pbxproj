@@ -19,6 +19,8 @@
 		728304DA27EFA3DC00DA0D67 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728304D827EFA3DC00DA0D67 /* AddressView.swift */; };
 		728304DC27EFA48500DA0D67 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728304DB27EFA48500DA0D67 /* CheckoutView.swift */; };
 		728304DD27EFA48500DA0D67 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728304DB27EFA48500DA0D67 /* CheckoutView.swift */; };
+		728304DF27F0722100DA0D67 /* String-EmptyChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728304DE27F0722100DA0D67 /* String-EmptyChecking.swift */; };
+		728304E027F0722100DA0D67 /* String-EmptyChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728304DE27F0722100DA0D67 /* String-EmptyChecking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,7 @@
 		728304D527EF9E3700DA0D67 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		728304D827EFA3DC00DA0D67 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		728304DB27EFA48500DA0D67 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		728304DE27F0722100DA0D67 /* String-EmptyChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-EmptyChecking.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,7 @@
 				728304DB27EFA48500DA0D67 /* CheckoutView.swift */,
 				728304D827EFA3DC00DA0D67 /* AddressView.swift */,
 				728304D527EF9E3700DA0D67 /* Order.swift */,
+				728304DE27F0722100DA0D67 /* String-EmptyChecking.swift */,
 				728304B927EF933800DA0D67 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -192,6 +196,7 @@
 				728304D927EFA3DC00DA0D67 /* AddressView.swift in Sources */,
 				728304DC27EFA48500DA0D67 /* CheckoutView.swift in Sources */,
 				728304C927EF933800DA0D67 /* ContentView.swift in Sources */,
+				728304DF27F0722100DA0D67 /* String-EmptyChecking.swift in Sources */,
 				728304C727EF933800DA0D67 /* CupcakeCorner_ProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +209,7 @@
 				728304DA27EFA3DC00DA0D67 /* AddressView.swift in Sources */,
 				728304DD27EFA48500DA0D67 /* CheckoutView.swift in Sources */,
 				728304CA27EF933800DA0D67 /* ContentView.swift in Sources */,
+				728304E027F0722100DA0D67 /* String-EmptyChecking.swift in Sources */,
 				728304C827EF933800DA0D67 /* CupcakeCorner_ProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
