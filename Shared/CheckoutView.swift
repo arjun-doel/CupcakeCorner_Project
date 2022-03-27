@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import ConfettiSwiftUI
 
 struct CheckoutView: View {
     @ObservedObject var order: Order
@@ -15,6 +16,8 @@ struct CheckoutView: View {
     
     @State private var errorMessage = ""
     @State private var showError = false
+    
+    @State private var counter = 0
     
     var body: some View {
         ScrollView {
@@ -34,9 +37,11 @@ struct CheckoutView: View {
                 Button("Place Order") {
                     Task {
                         await placeOrder()
+                        counter += 1
                     }
                 }
                 .padding()
+                ConfettiCannon(counter: $counter)
             }
         }
         .navigationTitle("Check out")
